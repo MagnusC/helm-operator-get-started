@@ -16,7 +16,7 @@ spec:
   values:
     image: magnusc/podinfo:dev-5pcgmdzv
     service:
-      type: NodePort
+      type: LoadBalancer
     replicaCount: 2
     hpa:
       enabled: false
