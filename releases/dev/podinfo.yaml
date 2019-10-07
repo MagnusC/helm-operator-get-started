@@ -16,7 +16,7 @@ spec:
   values:
     image: magnusc/podinfo:dev-5pcgmdzv
     service:
-      type: clusterIP
+      type: ClusterIP
     replicaCount: 2
     hpa:
       enabled: false
