@@ -15,7 +15,8 @@ spec:
     ref: master
   values:
     image: magnusc/podinfo:dev-5pcgmdzv
-    service.type: NodePort
+    service:
+      type: NodePort
     replicaCount: 2
     hpa:
       enabled: false
