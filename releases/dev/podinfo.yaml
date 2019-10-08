@@ -17,6 +17,6 @@ spec:
     image: magnusc/podinfo:dev-5pcgmdzv
     replicaCount: 2
     service:
-      type: NodePort
+      type: ClusterIP
     hpa:
       enabled: false
