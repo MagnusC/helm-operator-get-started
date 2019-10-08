@@ -14,5 +14,5 @@ spec:
     path: charts/podinfo
     ref: master
   values:
-    image: magnusc/podinfo:0.4.5
+    image: magnusc/podinfo:0.4.7
     replicaCount: 3
